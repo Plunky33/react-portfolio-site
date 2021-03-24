@@ -2,11 +2,9 @@ import React from "react";
 
 const HeroButton = () => {
   return (
-    <div>
-      <a href="#projects" class="btn btn-white btn-animated">
-        Discover Projects
-      </a>
-    </div>
+    <a href="#projects" className="btn btn-white btn-animated">
+      Discover Projects
+    </a>
   );
 };
 

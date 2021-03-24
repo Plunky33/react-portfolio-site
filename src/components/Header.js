@@ -5,12 +5,12 @@ import HeroButton from "./HeroButton";
 
 const Header = () => {
   return (
-    <header class="header">
+    <header className="header">
       <Logo />
-      <div class="text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary-main">Outdoors</span>
-          <span class="heading-primary-sub">Is Where Life Happens</span>
+      <div className="text-box">
+        <h1 className="heading-primary">
+          <span className="heading-primary-main">Outdoors</span>
+          <span className="heading-primary-sub">Is Where Life Happens</span>
         </h1>
         <HeroButton />
       </div>
