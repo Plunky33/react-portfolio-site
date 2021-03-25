@@ -1,3 +1,4 @@
+import "../sass/main.scss";
 import React from "react";
 import Header from "./Header";
 
