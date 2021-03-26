@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import SectionAbout from "./SectionAbout";
 import SectionExplore from "./SectionExplore";
+import SectionCard from "./SectionCard";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <main>
         <SectionAbout />
         <SectionExplore />
+        <SectionCard />
       </main>
     </div>
   );

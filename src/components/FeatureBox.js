@@ -12,13 +12,13 @@ const boxContent = [
     icon: "compass",
     tag: "Meet Nature",
     copy:
-      "Heyyyy, dolor sit amet consectetur adipisicing elit. nesciunt nesciunt vitae",
+      "Looking good, dolor sit amet consectetur adipisicing elit. nesciunt nesciunt vitae",
   },
   {
     icon: "map",
     tag: "Find Your Way",
     copy:
-      "Yowzer, dolor sit amet consectetur adipisicing elit. nesciunt nesciunt vitae",
+      "Yowzer!, dolor sit amet consectetur adipisicing elit. nesciunt nesciunt vitae",
   },
   {
     icon: "heart",
