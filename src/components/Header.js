@@ -11,7 +11,7 @@ const Header = () => {
           <span className="heading-primary--main">Outdoors</span>
           <span className="heading-primary--sub">Is Where Life Happens</span>
         </h1>
-        <HeroButton />
+        <HeroButton text="Discover Projects" />
       </div>
     </header>
   );

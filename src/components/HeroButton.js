@@ -1,9 +1,9 @@
 import React from "react";
 
-const HeroButton = () => {
+const HeroButton = (props) => {
   return (
     <a href="#projects" className="btn btn--white btn-animated">
-      Discover Projects
+      {props.text}
     </a>
   );
 };
