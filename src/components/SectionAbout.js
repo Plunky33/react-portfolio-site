@@ -5,36 +5,38 @@ import React from "react";
 
 const SectionAbout = () => {
   return (
-    <section class="section-about">
-      <div class="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">Exciting Tour for Adventurous People</h2>
+    <section className="section-about">
+      <div className="u-center-text u-margin-bottom-big">
+        <h2 className="heading-secondary">
+          Exciting Tour for Adventurous People
+        </h2>
       </div>
 
-      <div class="row">
-        <div class="col-1-of-2">
-          <h3 class="heading-tertiary u-margin-bottom-small">
+      <div className="row">
+        <div className="col-1-of-2">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             You're going to fall in love with nature
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
             nesciunt vitae corporis iusto nostrum eius, nisi libero sequi.
             Doloribus nesciunt vitae corporis iusto nostrum eius, nisi libero
             sequi.
           </p>
 
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             Live adventures like you never have before
           </h3>
-          <p class="paragraph">
+          <p className="paragraph">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
             nesciunt vitae corporis iusto nostrum eius, nisi libero sequi.
           </p>
-          <a href="#about" class="btn-text">
+          <a href="#about" className="btn-text">
             Learn More &rarr;
           </a>
         </div>
-        <div class="col-1-of-2">
-          <div class="composition">
+        <div className="col-1-of-2">
+          <div className="composition">
             <img
               src={nature1}
               alt="about"

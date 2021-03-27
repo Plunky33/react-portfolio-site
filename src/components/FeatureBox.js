@@ -30,11 +30,11 @@ const boxContent = [
 
 const renderedContent = boxContent.map((item) => {
   return (
-    <div class="col-1-of-4">
-      <div class="feature-box">
-        <i class={`feature-box__icon icon-basic-${item.icon}`}></i>
-        <h3 class="heading-tertiary u-margin-bottom-small">{item.tag}</h3>
-        <p class="feature-box__text">{item.copy}</p>
+    <div key={item.tag} className="col-1-of-4">
+      <div className="feature-box">
+        <i className={`feature-box__icon icon-basic-${item.icon}`}></i>
+        <h3 className="heading-tertiary u-margin-bottom-small">{item.tag}</h3>
+        <p className="feature-box__text">{item.copy}</p>
       </div>
     </div>
   );

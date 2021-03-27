@@ -3,8 +3,8 @@ import FeatureBox from "./FeatureBox";
 
 const SectionExplore = () => {
   return (
-    <section class="section-features">
-      <div class="row">
+    <section className="section-features">
+      <div className="row">
         <FeatureBox />
       </div>
     </section>

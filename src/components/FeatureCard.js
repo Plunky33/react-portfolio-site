@@ -7,10 +7,10 @@ const cardContent = [
     headingNum: 1,
     backNum: 1,
     title: "The Sea Explorer",
-    slugA: "3 Day Tour",
-    slugB: "Up to 30 People",
-    slugC: "2 Tour Guides",
-    slugD: "Sleep in Cozy Hotels",
+    slugA: "React",
+    slugB: "Javascript",
+    slugC: "CSS3",
+    slugD: "API",
     slugE: "Difficulty: Easy",
     backTitle: "Only",
     backSubtitle: "$297",
@@ -26,7 +26,7 @@ const cardContent = [
     slugD: "Sleep in Cozy Hotels",
     slugE: "Difficulty: Easy",
     backTitle: "Only",
-    backSubtitle: "$297",
+    backSubtitle: "$497",
   },
   {
     picNum: 3,
@@ -39,26 +39,26 @@ const cardContent = [
     slugD: "Sleep in Cozy Hotels",
     slugE: "Difficulty: Easy",
     backTitle: "Only",
-    backSubtitle: "$297",
+    backSubtitle: "$697",
   },
 ];
 
 const renderedContent = cardContent.map((item) => {
   return (
-    <div class="col-1-of-3">
-      <div class="card">
-        <div class="card__side card__side--front">
-          <div class={`card__picture card__picture--${item.picNum}`}>
+    <div className="col-1-of-3">
+      <div className="card">
+        <div className="card__side card__side--front">
+          <div className={`card__picture card__picture--${item.picNum}`}>
             &nbsp;
           </div>
-          <h4 class="card__heading">
+          <h4 className="card__heading">
             <span
-              class={`card__heading-span card__heading-span--${item.headingNum}`}
+              className={`card__heading-span card__heading-span--${item.headingNum}`}
             >
               {item.title}
             </span>
           </h4>
-          <div class="card__details">
+          <div className="card__details">
             <ul>
               <li>{item.slugA}</li>
               <li>{item.slugB}</li>
@@ -69,14 +69,14 @@ const renderedContent = cardContent.map((item) => {
           </div>
         </div>
         <div
-          class={`card__side card__side--back card__side--back-${item.backNum}`}
+          className={`card__side card__side--back card__side--back-${item.backNum}`}
         >
-          <div class="card__cta">
-            <div class="card__price-box">
-              <p class="card__price-only">{item.backTitle}</p>
-              <p class="card__price-value">{item.backSubtitle}</p>
+          <div className="card__cta">
+            <div className="card__price-box">
+              <p className="card__price-only">{item.backTitle}</p>
+              <p className="card__price-value">{item.backSubtitle}</p>
             </div>
-            <HeroButton text="Check Out Project" />
+            <HeroButton text="See Project" />
           </div>
         </div>
       </div>
