@@ -4,6 +4,7 @@ import Header from "./Header";
 import SectionAbout from "./SectionAbout";
 import SectionExplore from "./SectionExplore";
 import SectionCard from "./SectionCard";
+import SectionStory from "./SectionStory";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <SectionAbout />
         <SectionExplore />
         <SectionCard />
+        <SectionStory />
       </main>
     </div>
   );

@@ -1,15 +1,8 @@
 import React from "react";
-import HeroButton from "./HeroButton";
-import { cardContent } from "../apis/cardContent";
 
-// style statement applies to flow cards, see line 11
-const renderedContent = cardContent.map((item, index) => {
+const Card = () => {
   return (
-    <div
-      key={index}
-      className="col-1-of-3-card"
-      style={{ clear: index !== 0 && index % 3 === 0 ? "both" : "none" }}
-    >
+    <div key={item.title} className="col-1-of-3">
       <div className="card">
         <div className="card__side card__side--front">
           <div className={`card__picture card__picture--${item.picNum}`}>
@@ -40,16 +33,12 @@ const renderedContent = cardContent.map((item, index) => {
               <p className="card__price-only">{item.backTitle}</p>
               <p className="card__price-value">{item.backSubtitle}</p>
             </div>
-            <HeroButton text="Go To Project" color="white" />
+            <HeroButton text="See Project" />
           </div>
         </div>
       </div>
     </div>
   );
-});
-
-const FeatureCard = () => {
-  return renderedContent;
 };
 
-export default FeatureCard;
+export default Card;

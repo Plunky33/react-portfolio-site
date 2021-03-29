@@ -27,6 +27,15 @@
     width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
   }
 
+  .col-1-of-3-card {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    &:nth-child(3n) {
+      /* this applies to every third card that flows in from FeatureCard */
+      margin-right: 0;
+      margin-bottom: $gutter-vertical;
+    }
+  }
+
   .col-2-of-3 {
     width: calc(
       2 * (100% - 2 * #{$gutter-horizontal}) / 3 + #{$gutter-horizontal}
@@ -63,7 +72,7 @@
   }
 }
 
-$columns: 9; // number of columns in the grid system
+$columns: 12; // number of columns in the grid system
 
 .col {
   background-color: pink;

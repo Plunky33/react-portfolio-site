@@ -1,5 +1,6 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
+import HeroButton from "./HeroButton";
 
 const SectionCard = () => {
   return (
@@ -9,9 +10,9 @@ const SectionCard = () => {
       </div>
       <div className="row">
         <FeatureCard />
-      </div>
-      <div className="row">
-        <FeatureCard />
+        <div className="u-center-text u-margin-top-huge">
+          <HeroButton text="Discover My Github" color="green" />
+        </div>
       </div>
     </section>
   );
