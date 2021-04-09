@@ -5,12 +5,14 @@ import React from "react";
 const stories = [
   {
     foto: nat8,
+    name: "Mary Smith",
     heading: "I had the best week ever with my family.",
     text:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus",
   },
   {
     foto: nat9,
+    name: "Jack Wilson",
     heading: "WOW! My life has completely changed.",
     text:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus",
@@ -28,7 +30,7 @@ const FeatureStory = () => {
               alt="person on a tour"
               className="story__img"
             />
-            <figcaption className="story__caption">Mary Smith</figcaption>
+            <figcaption className="story__caption">{item.name}</figcaption>
           </figure>
 
           <div className="story__text">

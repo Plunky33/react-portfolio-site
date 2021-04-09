@@ -5,6 +5,8 @@ import SectionAbout from "./SectionAbout";
 import SectionExplore from "./SectionExplore";
 import SectionCard from "./SectionCard";
 import SectionStory from "./SectionStory";
+import SectionForm from "./SectionForm";
+import SectionFooter from "./SectionFooter";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <SectionExplore />
         <SectionCard />
         <SectionStory />
+        <SectionForm />
+        <SectionFooter />
       </main>
     </div>
   );
