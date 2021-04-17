@@ -74,16 +74,16 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url(../../img/nat-5.jpg);
+        url(../../img/project-1.png);
     }
 
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         ),
-        url(../../img/nat-6.jpg);
+        url(../../img/project-2.png);
     }
 
     &--3 {
@@ -92,7 +92,34 @@
           $color-tertiary-light,
           $color-tertiary-dark
         ),
-        url(../../img/nat-7.jpg);
+        url(../../img/project-3.png);
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../../img/project-4.png);
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-primary-light,
+          $color-primary-dark
+        ),
+        url(../../img/project-5.png);
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../../img/project-6.png);
     }
   }
 

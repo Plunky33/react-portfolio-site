@@ -40,7 +40,11 @@ const renderedContent = cardContent.map((item, index) => {
               <p className="card__price-only">{item.backTitle}</p>
               <p className="card__price-value">{item.backSubtitle}</p>
             </div>
-            <HeroButton text="Go To Project" color="white" />
+            <HeroButton
+              projectLink={item.projectLink}
+              text="Go To Project"
+              color="white"
+            />
           </div>
         </div>
       </div>
