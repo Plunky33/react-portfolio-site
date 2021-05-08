@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
-import HeroButton from "./HeroButton";
+import FeatureButton from "./FeatureButton";
+
 
 const Header = () => {
   return (
@@ -8,10 +9,10 @@ const Header = () => {
       <Logo />
       <div className="header__text-box">
         <h1 className="heading-primary">
-          <span className="heading-primary--main">Outdoors</span>
-          <span className="heading-primary--sub">Is Where Life Happens</span>
+          <span className="heading-primary--main">John Milner</span>
+          <span className="heading-primary--sub">Web Developer</span>
         </h1>
-        <HeroButton text="Discover Projects" color="white" />
+        <FeatureButton text="Discover Projects" color="white" dest="projects" />
       </div>
     </header>
   );

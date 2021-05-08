@@ -80,8 +80,8 @@
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-tertiary-light,
+          $color-tertiary-dark
         ),
         url(../../img/project-2.png);
     }
@@ -89,8 +89,8 @@
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          $color-tertiary-light,
-          $color-tertiary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         ),
         url(../../img/project-3.png);
     }
@@ -107,8 +107,8 @@
     &--5 {
       background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-tertiary-light,
+          $color-tertiary-dark
         ),
         url(../../img/project-5.png);
     }
@@ -116,8 +116,8 @@
     &--6 {
       background-image: linear-gradient(
           to right bottom,
-          $color-tertiary-light,
-          $color-tertiary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         ),
         url(../../img/project-6.png);
     }

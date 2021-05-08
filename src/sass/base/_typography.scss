@@ -14,8 +14,8 @@
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    /* 
-        animation-iteration-count: 3; 
+    /*
+        animation-iteration-count: 3;
         animation-delay: 3s;
         */
   }
@@ -24,7 +24,7 @@
     display: block;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 17.4px;
+    letter-spacing: 34.4px;
 
     animation: moveInRight 1s ease-out; /* animation shorthand */
   }
@@ -37,10 +37,11 @@
   display: inline-block;
   background-image: linear-gradient(
     to right,
-    $color-primary-light,
-    $color-primary-dark
+    $color-tertiary-light,
+    $color-tertiary-dark
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
